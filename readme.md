@@ -2,34 +2,6 @@
 
 A Node.js application for performing various calculations. This project includes a basic Express server, a number-crunching module, and various utilities. It also demonstrates CI/CD integration using Jenkins and GitHub Actions.
 
-## Project Structure
-
-```
-project_root/
-├── src/
-│   ├── modules/
-│   │   ├── calculation/
-│   │   │   ├── util/
-│   │   │   │   ├── exp.js
-│   │   │   │   ├── gcd.js
-│   │   │   │   └── percentage.js
-│   │   │   └── numberCruncher.js
-│   │   ├── index.js
-│   │   └── calculator.js
-│   └── server.js
-├── __tests__/
-│   ├── unit/
-│   │   ├── unit.test.js
-│   └── integration/
-│       ├── int.test.js
-├── .github/
-│   └── workflows/
-│       └── main.yml
-├── Jenkinsfile
-├── package.json
-└── README.md
-```
-
 ## Getting Started
 
 To get started with the project, follow these steps:
@@ -44,7 +16,7 @@ To get started with the project, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/node_calculator.git
+   git clone https://github.com/JackAndersson00/node_calculator
    cd node_calculator
    ```
 
@@ -62,7 +34,7 @@ To start the application, run:
 npm start
 ```
 
-The application will be available at [http://localhost:3000](http://localhost:3000).
+The application will be available at [http://localhost:3000].
 
 ### Running Tests
 
@@ -89,10 +61,6 @@ npm run integration-test
 
 1. **GitHub Actions Workflow:** The workflow configuration is located in `.github/workflows/main.yml`. It defines the CI/CD pipeline for GitHub Actions.
 
-### Project Files
+Made by Jack Andersson
 
-- **`Jenkinsfile`:** Defines the CI/CD pipeline for Jenkins.
-- **`main.yml`:** GitHub Actions workflow configuration.
-- **`app.js`:** Entry point for the Express server.
-- **`src/`:** Contains source code for the application.
-- **`__tests__/`:** Contains unit and integration tests.
+Goodbye!
