@@ -1,6 +1,6 @@
-import gcd from '../../src/calculation/util/gcd.js';
-import exp from '../../src/calculation/util/exp.js';
-import percentage from '../../src/calculation/util/percentage.js';
+import gcd from 'C:/Users/hajlo/Downloads/Code/assignment3/node_calculator/src/modules/calculation/util/gcd.js';
+import exp from 'C:/Users/hajlo/Downloads/Code/assignment3/node_calculator/src/modules/calculation/util/exp.js';
+import percentage from 'C:/Users/hajlo/Downloads/Code/assignment3/node_calculator/src/modules/calculation/util/percentage.js';
 
 describe('Utility Function Tests', () => {
 

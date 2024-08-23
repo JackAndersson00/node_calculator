@@ -1,4 +1,4 @@
-import numberCruncher from '../../src/calculation/numberCruncher.js';
+import numberCruncher from 'C:/Users/hajlo/Downloads/Code/assignment3/node_calculator/src/modules/calculation/numberCruncher.js';
 
 describe('Integration Tests for numberCruncher', () => {
 
